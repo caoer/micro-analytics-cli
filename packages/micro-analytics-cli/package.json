@@ -18,7 +18,7 @@
     "node": ">=6.0.0"
   },
   "scripts": {
-    "start": "./cli.js",
+    "now-start": "./cli.js",
     "now-build": "npm install && npm install --no-save micro-analytics-adapter-memory@latest",
     "now-start": "node src/index.js --adapter memory",
     "build": "babel src -d dist",
